@@ -13,6 +13,7 @@ namespace GitUploads.Controllers
 
         public ActionResult Index()
         {
+            ViewBag.Message = "Please upload your file...";
             return View();
         }
 
